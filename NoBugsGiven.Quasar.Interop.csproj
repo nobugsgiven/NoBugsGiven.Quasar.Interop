@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <RootNamespace>NoBugsGiven.Quasar.Interop</RootNamespace>
+    <AssemblyName>NoBugsGiven.Quasar.Interop</AssemblyName>
+    <PackageId>NoBugsGiven.Quasar.Interop</PackageId>
+    <Version>0.1.0</Version>
+    <Authors>No Bugs Given</Authors>
+    <Description>Versioned capability bridge contracts for Quasar/Vue frontends and .NET hosts.</Description>
+    <RepositoryUrl>https://github.com/nobugsgiven/NoBugsGiven.Quasar.Interop</RepositoryUrl>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <FrameworkReference Include="Microsoft.AspNetCore.App" />
+  </ItemGroup>
+
+</Project>
