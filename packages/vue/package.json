@@ -1,0 +1,19 @@
+{
+  "name": "@nobugsgiven/quasar-interop",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Typed Quasar/Vue client for explicitly granted .NET host capabilities.",
+  "author": "No Bugs Given <nobugsgiven@gmail.com>",
+  "exports": {
+    ".": {
+      "types": "./src/index.d.ts",
+      "import": "./src/index.js"
+    }
+  },
+  "peerDependencies": {
+    "axios": "^1.0.0",
+    "pinia": "^3.0.0 || ^4.0.0",
+    "quasar": "^2.0.0",
+    "vue": "^3.0.0"
+  }
+}
